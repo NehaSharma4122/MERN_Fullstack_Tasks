@@ -1,0 +1,66 @@
+.box {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(221, 7, 96);
+}
+.boxmain {
+  position: relative;
+  width: 80%;
+  height: 550px;
+  top: 40px;
+  left: 10%;
+  background-color: rgb(172, 3, 74);
+}
+form {
+  position: relative;
+  top: 40px;
+  left: 150px;
+  height: 500px;
+  width: 70%;
+  text-align: center;
+}
+
+.l1 {
+  position: relative;
+  font-size: 25px;
+  color: aliceblue;
+  text-align: center;
+  left: 70px;
+}
+.i1 {
+  position: relative;
+  height: 30px;
+  width: 300px;
+  left: 150px;
+}
+.t1 {
+  position: relative;
+  left: 170px;
+}
+.td1 {
+  color: aliceblue;
+  font-size: 20px;
+  width: 120px;
+  height: 30px;
+}
+.s1 {
+  position: relative;
+  height: 30px;
+  width: 310px;
+  left: 150px;
+}
+textarea {
+  position: relative;
+  height: 100px;
+  width: 300px;
+  left: 150px;
+}
+.but1 {
+  width: 600px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 25px;
+}

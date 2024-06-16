@@ -1,0 +1,55 @@
+.box {
+  position: relative;
+  width: 80%;
+  height: 500px;
+  top: 50px;
+  left: 10%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box1 {
+  position: relative;
+  left: 0px;
+  height: 100%;
+  width: 20%;
+}
+.innerbox {
+  position: relative;
+  top: 30px;
+}
+.sbox {
+  position: relative;
+  width: 55px;
+  height: 50px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-top: 15px;
+}
+.sbox:hover {
+  width: 80px;
+}
+#b1 {
+  background-color: darkgreen;
+}
+#b2 {
+  background-color: rgb(35, 168, 221);
+}
+#b3 {
+  background-color: crimson;
+}
+#b4 {
+  background-color: rgb(236, 154, 3);
+}
+.box2 {
+  position: relative;
+  height: 100%;
+  width: 80%;
+}
+h3 {
+  font-size: 40px;
+}
+p {
+  font-size: 25px;
+}

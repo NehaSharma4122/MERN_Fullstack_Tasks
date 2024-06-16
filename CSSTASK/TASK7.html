@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task7.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="boxmain">
+            <form action="">
+                <table cellspacing="10px" cellpadding="0px">
+                    <tr>
+                        <td align="left"><label class="l1">Full Name:</label></td>
+                        <td align="center"><input class="i1" type="text" placeholder="Name" /></td>
+                    </tr>
+                    <tr>
+                        <td align="left"><label class="l1">Email:</label></td>
+                        <td align="center"><input class="i1" type="email" placeholder="Email" /></td>
+                    </tr>
+                    <tr>
+                        <td align="left"><label class="l1">Password:</label></td>
+                        <td align="center"><input class="i1" type="password" placeholder="Password" /></td>
+                    </tr>
+                    <tr>
+                        <td align="left"><label class="l1">Phone Number:</label></td>
+                        <td align="center"><input class="i1" type="tel" placeholder="Phone Number" minlength="10"
+                                maxlength="10" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left"><label class="l1">Gender:</label></td>
+                        <td class="check" align="center">
+                            <table class="t1">
+                                <tr>
+                                    <td class="td1">
+                                        <label>Male:</label>
+                                        <input type="radio" name="Gender" value="Male">
+                                    </td>
+                                    <td class="td1">
+                                        <label>Female:</label>
+                                        <input type="radio" name="Gender" value="Female">
+
+                                    </td>
+                                    <td class="td1">
+                                        <label>Other</label>
+                                        <input type="radio" name="Gender" value="Other">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            <label class="l1">Language:</label>
+                        </td>
+                        <td align="center">
+                            <select class="s1">
+                                <option value="">&ensp;Select Language&ensp;&ensp;&ensp;</option>
+                                <option value="Hindi">Hindi</option>
+                                <option value="English">English</option>
+                                <option value="French">French</option>
+                                <option value="German">German</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left"><label class="l1">Zip Code:</label></td>
+                        <td align="center"><input class="i1" type="number" placeholder="Zip code" min="0" minlength="6"
+                                maxlength="6" /></td>
+                    </tr>
+                    <tr>
+                        <td align="left"><label class="l1">About:</label></td>
+                        <td align="center">
+                            <textarea name="About"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                <button class="but1" type="submit"><b>Register</b></button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
